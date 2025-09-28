@@ -1,0 +1,12 @@
+@use "../abstract/" as *;
+
+.main {}
+
+.hero {
+  &__heading {
+    font-size: var(--fs-800);
+    font-weight: black;
+    font-family: inherit;
+    font-family: $font-family-accent;
+  }
+}
