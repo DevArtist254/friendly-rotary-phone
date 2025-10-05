@@ -1,0 +1,7 @@
+@use "typography" as *;
+
+@mixin fontSelector($size, $weight, $ff) {
+  font-size: var(--fs-#{$size});
+  font-weight: var(--fw-#{$weight});
+  font-family: var(--ff-#{$ff});
+}

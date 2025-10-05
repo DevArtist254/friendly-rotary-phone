@@ -5,6 +5,13 @@
   @each $name, $value in $font-sizes {
     --fs-#{$name}: #{$value};
   }
+
+  @each $name, $value in $font-weights {
+    --fw-#{$name}: #{$value};
+  }
+
+  --ff-base: #{$font-family-base};
+  --ff-accent: #{$font-family-accent};
 }
 
 *,
@@ -13,6 +20,13 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+}
+
+img,
+picture,
+svg {
+  display: block;
+  max-width: 100%;
 }
 
 html {

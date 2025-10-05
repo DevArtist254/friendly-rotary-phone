@@ -1,12 +1,53 @@
 @use "../abstract/" as *;
 
-.main {}
+.container {
+    max-width: 120rem;
+    margin: 0 auto;
+    overflow-x: hidden;
+}
 
 .hero {
-  &__heading {
-    font-size: var(--fs-800);
-    font-weight: black;
-    font-family: inherit;
-    font-family: $font-family-accent;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+
+  &__img {
+    
+    &--fr {
+      position: absolute;
+      bottom: 7px;
+      right: 360px;
+    }
   }
+  &__quote {
+    @include fontSelector(300, 600, accent);
+    text-align: end;
+  }
+  &__heading {
+    @include fontSelector(800, 800, accent);
+    text-align: center;
+    margin-left: -15%;
+    line-height: 31rem;
+  }
+
+  &__cta {
+    width: 36rem;
+    height: 12.5rem;
+    background-color: rgba(225, 225, 225, 0.95);
+    position: absolute;
+    bottom: 30px;
+    left: 20px;
+
+    &--subHeading {
+      @include fontSelector(300, 600, accent);
+    }
+    &--text {
+      @include fontSelector(300, 600, accent);
+    }
+  }
+}
+
+.ctrl {
+  position: relative;
 }
