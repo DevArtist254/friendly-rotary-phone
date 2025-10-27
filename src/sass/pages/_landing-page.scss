@@ -21,11 +21,9 @@
     }
   }
   &__quote {
-    @include fontSelector(300, 600, accent);
     text-align: end;
   }
   &__heading {
-    @include fontSelector(800, 800, accent);
     text-align: center;
     margin-left: -15%;
     line-height: 31rem;
@@ -50,4 +48,29 @@
 
 .ctrl {
   position: relative;
+}
+
+.cta {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin-top: $stream-gap;
+  margin-bottom: $stream-gap;
+  
+
+  &__link {
+    @include fontSelector(300, 600, base);
+  }
+}
+
+.banner {
+  border-top: 1px solid clr(grey);
+  border-bottom: 1px solid clr(grey);
+  @include fontSelector(300, 200, base);
+  padding: 1.6rem 0;
+  color: #7B7B7B;
+  
+  width: 200%;
+  margin-left: -62rem;
+  gap: $stream-gap;
 }

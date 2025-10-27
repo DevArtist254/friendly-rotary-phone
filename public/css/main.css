@@ -76,15 +76,9 @@ html {
   right: 360px;
 }
 .hero__quote {
-  font-size: var(--fs-300);
-  font-weight: var(--fw-600);
-  font-family: var(--ff-accent);
   text-align: end;
 }
 .hero__heading {
-  font-size: var(--fs-800);
-  font-weight: var(--fw-800);
-  font-family: var(--ff-accent);
   text-align: center;
   margin-left: -15%;
   line-height: 31rem;
@@ -110,6 +104,427 @@ html {
 
 .ctrl {
   position: relative;
+}
+
+.cta {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin-top: 4rem;
+  margin-bottom: 4rem;
+}
+.cta__link {
+  font-size: var(--fs-300);
+  font-weight: var(--fw-600);
+  font-family: var(--ff-base);
+}
+
+.banner {
+  border-top: 1px solid #7B7B7B;
+  border-bottom: 1px solid #7B7B7B;
+  font-size: var(--fs-300);
+  font-weight: var(--fw-200);
+  font-family: var(--ff-base);
+  padding: 1.6rem 0;
+  color: #7B7B7B;
+  width: 200%;
+  margin-left: -62rem;
+  gap: 4rem;
+}
+
+.flex-row {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.fs-100-200-accent {
+  font-size: 1.6rem;
+  font-family: "Orbitron", sans-serif;
+  font-weight: 300;
+}
+
+.fs-100-200-base {
+  font-size: 1.6rem;
+  font-family: "Lato", sans-serif;
+  font-weight: 300;
+}
+
+.fs-100-400-accent {
+  font-size: 1.6rem;
+  font-family: "Orbitron", sans-serif;
+  font-weight: 400;
+}
+
+.fs-100-400-base {
+  font-size: 1.6rem;
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+}
+
+.fs-100-600-accent {
+  font-size: 1.6rem;
+  font-family: "Orbitron", sans-serif;
+  font-weight: 700;
+}
+
+.fs-100-600-base {
+  font-size: 1.6rem;
+  font-family: "Lato", sans-serif;
+  font-weight: 700;
+}
+
+.fs-100-800-accent {
+  font-size: 1.6rem;
+  font-family: "Orbitron", sans-serif;
+  font-weight: 900;
+}
+
+.fs-100-800-base {
+  font-size: 1.6rem;
+  font-family: "Lato", sans-serif;
+  font-weight: 900;
+}
+
+.fs-200-200-accent {
+  font-size: 2rem;
+  font-family: "Orbitron", sans-serif;
+  font-weight: 300;
+}
+
+.fs-200-200-base {
+  font-size: 2rem;
+  font-family: "Lato", sans-serif;
+  font-weight: 300;
+}
+
+.fs-200-400-accent {
+  font-size: 2rem;
+  font-family: "Orbitron", sans-serif;
+  font-weight: 400;
+}
+
+.fs-200-400-base {
+  font-size: 2rem;
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+}
+
+.fs-200-600-accent {
+  font-size: 2rem;
+  font-family: "Orbitron", sans-serif;
+  font-weight: 700;
+}
+
+.fs-200-600-base {
+  font-size: 2rem;
+  font-family: "Lato", sans-serif;
+  font-weight: 700;
+}
+
+.fs-200-800-accent {
+  font-size: 2rem;
+  font-family: "Orbitron", sans-serif;
+  font-weight: 900;
+}
+
+.fs-200-800-base {
+  font-size: 2rem;
+  font-family: "Lato", sans-serif;
+  font-weight: 900;
+}
+
+.fs-300-200-accent {
+  font-size: 2.4rem;
+  font-family: "Orbitron", sans-serif;
+  font-weight: 300;
+}
+
+.fs-300-200-base {
+  font-size: 2.4rem;
+  font-family: "Lato", sans-serif;
+  font-weight: 300;
+}
+
+.fs-300-400-accent {
+  font-size: 2.4rem;
+  font-family: "Orbitron", sans-serif;
+  font-weight: 400;
+}
+
+.fs-300-400-base {
+  font-size: 2.4rem;
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+}
+
+.fs-300-600-accent {
+  font-size: 2.4rem;
+  font-family: "Orbitron", sans-serif;
+  font-weight: 700;
+}
+
+.fs-300-600-base {
+  font-size: 2.4rem;
+  font-family: "Lato", sans-serif;
+  font-weight: 700;
+}
+
+.fs-300-800-accent {
+  font-size: 2.4rem;
+  font-family: "Orbitron", sans-serif;
+  font-weight: 900;
+}
+
+.fs-300-800-base {
+  font-size: 2.4rem;
+  font-family: "Lato", sans-serif;
+  font-weight: 900;
+}
+
+.fs-400-200-accent {
+  font-size: 3.2rem;
+  font-family: "Orbitron", sans-serif;
+  font-weight: 300;
+}
+
+.fs-400-200-base {
+  font-size: 3.2rem;
+  font-family: "Lato", sans-serif;
+  font-weight: 300;
+}
+
+.fs-400-400-accent {
+  font-size: 3.2rem;
+  font-family: "Orbitron", sans-serif;
+  font-weight: 400;
+}
+
+.fs-400-400-base {
+  font-size: 3.2rem;
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+}
+
+.fs-400-600-accent {
+  font-size: 3.2rem;
+  font-family: "Orbitron", sans-serif;
+  font-weight: 700;
+}
+
+.fs-400-600-base {
+  font-size: 3.2rem;
+  font-family: "Lato", sans-serif;
+  font-weight: 700;
+}
+
+.fs-400-800-accent {
+  font-size: 3.2rem;
+  font-family: "Orbitron", sans-serif;
+  font-weight: 900;
+}
+
+.fs-400-800-base {
+  font-size: 3.2rem;
+  font-family: "Lato", sans-serif;
+  font-weight: 900;
+}
+
+.fs-500-200-accent {
+  font-size: 4rem;
+  font-family: "Orbitron", sans-serif;
+  font-weight: 300;
+}
+
+.fs-500-200-base {
+  font-size: 4rem;
+  font-family: "Lato", sans-serif;
+  font-weight: 300;
+}
+
+.fs-500-400-accent {
+  font-size: 4rem;
+  font-family: "Orbitron", sans-serif;
+  font-weight: 400;
+}
+
+.fs-500-400-base {
+  font-size: 4rem;
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+}
+
+.fs-500-600-accent {
+  font-size: 4rem;
+  font-family: "Orbitron", sans-serif;
+  font-weight: 700;
+}
+
+.fs-500-600-base {
+  font-size: 4rem;
+  font-family: "Lato", sans-serif;
+  font-weight: 700;
+}
+
+.fs-500-800-accent {
+  font-size: 4rem;
+  font-family: "Orbitron", sans-serif;
+  font-weight: 900;
+}
+
+.fs-500-800-base {
+  font-size: 4rem;
+  font-family: "Lato", sans-serif;
+  font-weight: 900;
+}
+
+.fs-600-200-accent {
+  font-size: 6.4rem;
+  font-family: "Orbitron", sans-serif;
+  font-weight: 300;
+}
+
+.fs-600-200-base {
+  font-size: 6.4rem;
+  font-family: "Lato", sans-serif;
+  font-weight: 300;
+}
+
+.fs-600-400-accent {
+  font-size: 6.4rem;
+  font-family: "Orbitron", sans-serif;
+  font-weight: 400;
+}
+
+.fs-600-400-base {
+  font-size: 6.4rem;
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+}
+
+.fs-600-600-accent {
+  font-size: 6.4rem;
+  font-family: "Orbitron", sans-serif;
+  font-weight: 700;
+}
+
+.fs-600-600-base {
+  font-size: 6.4rem;
+  font-family: "Lato", sans-serif;
+  font-weight: 700;
+}
+
+.fs-600-800-accent {
+  font-size: 6.4rem;
+  font-family: "Orbitron", sans-serif;
+  font-weight: 900;
+}
+
+.fs-600-800-base {
+  font-size: 6.4rem;
+  font-family: "Lato", sans-serif;
+  font-weight: 900;
+}
+
+.fs-700-200-accent {
+  font-size: 9.6rem;
+  font-family: "Orbitron", sans-serif;
+  font-weight: 300;
+}
+
+.fs-700-200-base {
+  font-size: 9.6rem;
+  font-family: "Lato", sans-serif;
+  font-weight: 300;
+}
+
+.fs-700-400-accent {
+  font-size: 9.6rem;
+  font-family: "Orbitron", sans-serif;
+  font-weight: 400;
+}
+
+.fs-700-400-base {
+  font-size: 9.6rem;
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+}
+
+.fs-700-600-accent {
+  font-size: 9.6rem;
+  font-family: "Orbitron", sans-serif;
+  font-weight: 700;
+}
+
+.fs-700-600-base {
+  font-size: 9.6rem;
+  font-family: "Lato", sans-serif;
+  font-weight: 700;
+}
+
+.fs-700-800-accent {
+  font-size: 9.6rem;
+  font-family: "Orbitron", sans-serif;
+  font-weight: 900;
+}
+
+.fs-700-800-base {
+  font-size: 9.6rem;
+  font-family: "Lato", sans-serif;
+  font-weight: 900;
+}
+
+.fs-800-200-accent {
+  font-size: 36rem;
+  font-family: "Orbitron", sans-serif;
+  font-weight: 300;
+}
+
+.fs-800-200-base {
+  font-size: 36rem;
+  font-family: "Lato", sans-serif;
+  font-weight: 300;
+}
+
+.fs-800-400-accent {
+  font-size: 36rem;
+  font-family: "Orbitron", sans-serif;
+  font-weight: 400;
+}
+
+.fs-800-400-base {
+  font-size: 36rem;
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+}
+
+.fs-800-600-accent {
+  font-size: 36rem;
+  font-family: "Orbitron", sans-serif;
+  font-weight: 700;
+}
+
+.fs-800-600-base {
+  font-size: 36rem;
+  font-family: "Lato", sans-serif;
+  font-weight: 700;
+}
+
+.fs-800-800-accent {
+  font-size: 36rem;
+  font-family: "Orbitron", sans-serif;
+  font-weight: 900;
+}
+
+.fs-800-800-base {
+  font-size: 36rem;
+  font-family: "Lato", sans-serif;
+  font-weight: 900;
+}
+
+.overflow {
+  overflow: hidden;
 }
 
 /*# sourceMappingURL=main.css.map */
