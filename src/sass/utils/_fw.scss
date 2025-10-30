@@ -1,0 +1,13 @@
+@use "../abstract/typography" as *;
+
+@each $family, $font in $font-families {
+  .--ff-#{$family} {
+    font-family: $font; 
+  }
+}
+
+@each $weights, $weight in $font-weights {
+  .--fw-#{$weights} {
+    font-weight: $weight;
+  }
+}

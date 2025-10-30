@@ -1,14 +1,7 @@
 @use "../abstract/font-size" as *;
-@use "../abstract/typography" as *;
 
 @each $sizes, $size in $font-sizes {
-  @each $weights, $weight in $font-weights {
-    @each $family, $font in $font-families {
-      .fs-#{$sizes}-#{$weights}-#{$family} {
-        font-size: $size;
-        font-family: $font;
-        font-weight: $weight;
-      }
-    }
+  .--fs-#{$sizes} {
+    font-size: $size;
   }
 }

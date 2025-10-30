@@ -6,6 +6,9 @@
     overflow-x: hidden;
 }
 
+.container > div {
+  width: 100%;
+}
 .hero {
   position: relative;
   display: flex;
@@ -36,31 +39,11 @@
     position: absolute;
     bottom: 30px;
     left: 20px;
-
-    &--subHeading {
-      @include fontSelector(300, 600, accent);
-    }
-    &--text {
-      @include fontSelector(300, 600, accent);
-    }
   }
 }
 
 .ctrl {
   position: relative;
-}
-
-.cta {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-around;
-  margin-top: $stream-gap;
-  margin-bottom: $stream-gap;
-  
-
-  &__link {
-    @include fontSelector(300, 600, base);
-  }
 }
 
 .banner {
